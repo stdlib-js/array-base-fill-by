@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import fillBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-fill-by@esm/index.mjs';
+import fillBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-fill-by@v0.1.0-esm/index.mjs';
 ```
 
 #### fillBy( x, start, end, fcn\[, thisArg] )
@@ -138,7 +138,7 @@ var cnt = ctx.count;
 import constantFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-constant-function@esm/index.mjs';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zero-to@esm/index.mjs';
-import fillBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-fill-by@esm/index.mjs';
+import fillBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-fill-by@v0.1.0-esm/index.mjs';
 
 var x = new Float64Array( zeroTo( 6 ) );
 // returns <Float64Array>[ 0.0, 1.0, 2.0, 3.0, 4.0, 5.0 ]
