@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import fillBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-fill-by@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-fill-by/tags). For example,
+
+```javascript
 import fillBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-fill-by@v0.1.1-esm/index.mjs';
 ```
 
@@ -138,7 +143,7 @@ var cnt = ctx.count;
 import constantFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-constant-function@esm/index.mjs';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zero-to@esm/index.mjs';
-import fillBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-fill-by@v0.1.1-esm/index.mjs';
+import fillBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-fill-by@esm/index.mjs';
 
 var x = new Float64Array( zeroTo( 6 ) );
 // returns <Float64Array>[ 0.0, 1.0, 2.0, 3.0, 4.0, 5.0 ]
